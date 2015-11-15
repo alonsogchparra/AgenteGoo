@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Goo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_evento_">Evento_Activity</string>
+    <string name="err_campos_vacios">Debes rellenar al menos tú nombre</string>
+    <string name="err_insertar">Ya tienes un evento para esa Fecha</string>
+    <string name="err_busqueda">Evento no encontrado, ¿Quieres volver a intentarlo?</string>
+    <string name="err_listar">Debes agregar eventos, ¿Quieres agregar un evento?</string>
+
+    <string-array name="prioridad_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

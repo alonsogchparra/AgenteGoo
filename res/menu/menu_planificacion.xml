@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/MnuOpc1"
+        android:icon="@drawable/agendar"
+        android:title="Agendar">
+    </item>
+    <item
+        android:id="@+id/MnuOpc2"
+        android:icon="@drawable/compartir"
+        android:title="Compartir">
+    </item>
+    <item
+        android:id="@+id/MnuOpc3"
+        android:icon="@drawable/salir"
+        android:title="Salir">
+    </item>
+
+</menu>

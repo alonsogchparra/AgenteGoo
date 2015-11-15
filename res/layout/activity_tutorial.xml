@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/Button01"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Llama a José Angel&quot;" />
+
+                <Button
+                    android:id="@+id/Button02"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Envia un SMS a María&quot;" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;A qué horas tengo clases Mañana&quot;" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Añade a mi Agenda Examén... &quot;" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué hay pa&apos; hoy?&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Llegue a mi casa&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué es Inteligencia Artificial&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Cual es mi próximo exámen&quot;" />
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué hay pa&apos; hoy?&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Llegue a mi casa&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué es Inteligencia Artificial&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Cual es mi próximo exámen&quot;" />
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué hay pa&apos; hoy?&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Llegue a mi casa&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué es Inteligencia Artificial&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Cual es mi próximo exámen&quot;" />
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué hay pa&apos; hoy?&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Llegue a mi casa&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué es Inteligencia Artificial&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Cual es mi próximo exámen&quot;" />
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué hay pa&apos; hoy?&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Llegue a mi casa&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Qué es Inteligencia Artificial&quot;" />
+                
+                <Button
+                    android:id="@+id/button1"
+                    style="@drawable/bg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;Cual es mi próximo exámen&quot;" />
+                
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Siguiente" />
+
+</RelativeLayout>

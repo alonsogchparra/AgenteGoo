@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agentegoo"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/goo2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity><activity android:name="_Goo"></activity>
+        <activity android:name=".agenda.Agenda_Activity"></activity>
+        <activity android:name=".agenda.Buscar_Evento_Activity"></activity>
+        
+        <activity android:name=".agenda.ListarEventos_Activity"></activity>
+        <activity android:name="Main_Activity"></activity>
+        <activity android:name=".agenda.NuevoEvento_Activity"></activity>
+        <activity android:name=".planificacion.PlanificadorOpcionesActivity"></activity>
+        <activity android:name=".planificacion.PlanificadorSelectCategoria"></activity>
+        <activity android:name=".login.SignUPActivity"></activity>
+        <activity android:name="Tutorial_Activity"></activity>
+        <activity android:name=".widget.WidgetConfig">
+            <intent-filter>
+                <action android:name="android.apwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".widget.MainActivity"></activity>
+        <activity android:name=".widget.Test"></activity>
+        <receiver android:name=".widget.MiWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.example.agentegoo.widget.android.widgets.ACTUALIZAR_WIDGET"/>
+            </intent-filter>
+            <meta-data android:resource="@xml/miwidget_wprovider" android:name="android.appwidget.provider"/>
+        </receiver>
+        <activity android:name=".planificacion.lista_planificada.Planificador_ExpandableListMainActivity"></activity>
+    </application>
+
+</manifest>
